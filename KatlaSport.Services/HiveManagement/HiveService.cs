@@ -132,7 +132,7 @@ namespace KatlaSport.Services.HiveManagement
             {
                 dbHive.IsDeleted = deletedStatus;
                 dbHive.LastUpdatedBy = _userContext.UserId;
-                dbHive.LastUpdated = DateTime.Now;
+                dbHive.LastUpdated = DateTime.UtcNow;
                 await _context.SaveChangesAsync();
             }
         }
