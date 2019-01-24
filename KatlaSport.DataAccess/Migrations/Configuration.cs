@@ -90,7 +90,10 @@ namespace KatlaSport.DataAccess.Migrations
                     IsDeleted = false,
                     CreatedBy = creatorId,
                     LastUpdatedBy = creatorId,
-                    LastUpdated = timestamp
+                    LastUpdated = timestamp,
+                    Description = "Kyak Men Shoes description",
+                    ManufacturerCode = "MC0001",
+                    Price = 120m
                 },
                 new CatalogueProduct
                 {
@@ -101,7 +104,10 @@ namespace KatlaSport.DataAccess.Migrations
                     IsDeleted = false,
                     CreatedBy = creatorId,
                     LastUpdatedBy = creatorId,
-                    LastUpdated = timestamp
+                    LastUpdated = timestamp,
+                    Description = "Top-top Men Shoes description",
+                    ManufacturerCode = "MC0002",
+                    Price = 130m
                 },
                 new CatalogueProduct
                 {
@@ -112,7 +118,10 @@ namespace KatlaSport.DataAccess.Migrations
                     IsDeleted = false,
                     CreatedBy = creatorId,
                     LastUpdatedBy = creatorId,
-                    LastUpdated = timestamp
+                    LastUpdated = timestamp,
+                    Description = "Abibas T-Shirt description",
+                    ManufacturerCode = "MC0003",
+                    Price = 140m
                 },
                 new CatalogueProduct
                 {
@@ -123,7 +132,10 @@ namespace KatlaSport.DataAccess.Migrations
                     IsDeleted = false,
                     CreatedBy = creatorId,
                     LastUpdatedBy = creatorId,
-                    LastUpdated = timestamp
+                    LastUpdated = timestamp,
+                    Description = "Pedali 360 Bicycle",
+                    ManufacturerCode = "MC0004",
+                    Price = 150m
                 });
 
             context.StoreHives.AddOrUpdate(
