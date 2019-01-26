@@ -3,24 +3,24 @@
 namespace KatlaSport.Services.HiveManagement
 {
     /// <summary>
-    /// Represents a request for creating and updating a hive.
+    /// Represents a request for creating and updating a hive section.
     /// </summary>
-    [Validator(typeof(UpdateHiveRequestValidator))]
-    public class UpdateHiveRequest
+    [Validator(typeof(UpdateHiveSectionRequestValidator))]
+    public class UpdateHiveSectionRequest
     {
         /// <summary>
-        /// Gets or sets a store hive name.
+        /// Gets or sets a hive section name.
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// Gets or sets a store hive code.
+        /// Gets or sets a hive section code.
         /// </summary>
         public string Code { get; set; }
 
         /// <summary>
-        /// Gets or sets a store hive address.
+        /// Gets or sets a hive section id.
         /// </summary>
-        public string Address { get; set; }
+        public int StoreHiveId { get; set; }
     }
 }
