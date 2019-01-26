@@ -5,7 +5,7 @@ namespace KatlaSport.Services.HiveManagement
     /// <summary>
     /// Represent a validator for <see cref="UpdateHiveSectionRequestValidator"/>
     /// </summary>
-    class UpdateHiveSectionRequestValidator : AbstractValidator<UpdateHiveSectionRequest>
+    public class UpdateHiveSectionRequestValidator : AbstractValidator<UpdateHiveSectionRequest>
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="UpdateHiveSectionRequestValidator"/> class.
